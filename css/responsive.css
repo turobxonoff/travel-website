@@ -1,0 +1,72 @@
+@media (max-width: 990px) {
+  html {
+    font-size: 55%;
+  }
+  section {
+    padding: 2rem;
+  }
+  .btn {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .header-section .navbar-section .navbar {
+    position: absolute;
+    top: -10rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header-section .navbar-section #menu-icon {
+    display: initial;
+  }
+  .header-section .navbar-section #menu-icon.fa-times {
+    transform: rotate(180deg);
+  }
+  .header-section .navbar-section .navbar.active {
+    top: 8rem;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header-section .navbar-section .navbar.active a {
+    display: block;
+    margin-left: 0;
+    padding: 2rem;
+  }
+  .header-section__home h1 {
+    font-size: 5rem;
+  }
+  .header-section__home p {
+    padding: 2rem 5rem;
+  }
+  .header-section__home .location {
+    margin: 0;
+  }
+  .services {
+    background-position: left;
+  }
+  .contact .contact-section {
+    gap: 2em;
+  }
+  .contact .contact-section .box {
+    margin-left: 0;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .header-section__home h1 {
+    font-size: 3.8rem;
+  }
+  .header-section__home p {
+    padding: 2rem;
+  }
+  .header-section__home .location input {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .fun-facts .facts-row .facts-item {
+    margin-top: 10rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */
